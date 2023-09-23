@@ -10,17 +10,35 @@ var
 
 // Declaração de variáveis
 
-    c, f: inteiro
+    c, f, r: inteiro
+
+// C = Começo
+// F = Final
+// R = Resultado
 
 inicio
+// Coletando os dados
+
+    escreval("Digite o primeiro número: ")
+    leia(c)
+    escreval("Digite o segundo número: ")
+    leia(f)
+    escreval("")
 
 // Estrutura de repetição
 
-    c <- 0
-    f <- 10
-
-    enquanto (c < f) faca
-        escreva(c <- c + 1)
-    fimenquanto
+    se (f > c) entao
+        r <- c
+        enquanto (r <= f) faca
+            escreva(r, ".. ")
+            r <- r + 1
+        fimenquanto
+    senao
+        r <- c
+        enquanto (r >= f) faca
+            escreva(r, ".. ")
+            r <- r - 1
+        fimenquanto
+    fimse
 
 fimalgoritmo
