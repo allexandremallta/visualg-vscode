@@ -10,9 +10,9 @@ var
 
 // Declaração de variáveis do exercício 1
 
-    answ, n, m: inteiro
+    answ, n, m, i: inteiro
 
-// Declaração de variáveis do exercício 2
+// D, ieclaração de variáveis do exercício 2
 
     sexo, cont: caractere
     idade, corCabelo, slcUm, slcDois: inteiro
@@ -83,4 +83,10 @@ inicio
     escreval("Total de ", slcUm, " homens adultos de cabelo castanho")
     escreval("E um totsl de ", slcDois, " mulheres entre 25 e 30 anos loiras")
 
+// Para
+
+    para i <- 0 ate 15 faca
+        escreval (i)
+    fimpara
+    
 fimalgoritmo
