@@ -88,5 +88,4 @@ inicio
     para i <- 0 ate 15 faca
         escreval (i)
     fimpara
-    
 fimalgoritmo
