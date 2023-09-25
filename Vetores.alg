@@ -17,13 +17,5 @@ inicio
       escreva("Digite o ", i, "º número: ")
       leia(numeros[i])
    fimpara
-
-   // Exibe os números em ordem inversa
-   escreva("Números em ordem inversa: ")
-   para i de 5 ate 1 passo -1 faca
-      escreva(numeros[i], " ")
-   fimpara
-
-   // Pula uma linha no final
    escreval("")
 fimalgoritmo
